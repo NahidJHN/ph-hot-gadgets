@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button.buy-button {
+  width: 7rem;
+  border: none;
+  padding: 7px 12px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+.bannerSection .nav-descrpt {
+  margin-left: 1rem;
+}
+.bannerSection .carousel-inner {
+  width: 90%;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.bannerSection .carousel-indicators [data-bs-target] {
+  background-color: #f47c00;
+}
+.bannerSection .carousel-item {
+  background-image: url("images/bg-2.png");
+  background-size: 7rem;
+}
+.bannerSection .carousel-image {
+  background-image: url("images/bg-1.png");
+  background-size: contain;
+  background-position: left;
+}
+
+.bannerSection .carousel-item,
+.bannerSection .carousel-image {
+  background-repeat: no-repeat;
+}
+.smartphoneSection .card {
+  width: 20rem;
+  padding: 5px 2px;
+  text-align: center;
+  border: none;
+  box-shadow: 1px 1px 10px #ddd;
+  margin: auto;
+  margin-top: 2rem;
+}
+.categoriesSection h2 {
+  text-align: center;
+}
+.categoriesSection h2::after {
+  content: "";
+  display: block;
+  width: 8rem;
+  height: 7px;
+  background-color: #f47c00;
+  margin: auto;
+  border-radius: 15px;
+  transform: translateY(10px);
+}
+.categoriesSection .category-image {
+  padding: 2rem 1rem;
+  margin: 1rem;
+  text-align: center;
+  box-shadow: 1px 1px 10px #ddd;
+}
+.categoriesSection .container {
+  margin-top: 3rem;
+}
